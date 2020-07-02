@@ -1,0 +1,19 @@
+{
+  "name": "FiveStarsPlugin",
+  "version": "0.0.1",
+  "description": "Plugin para invitar a los usuarios a calificar app",
+  "cordova": {
+    "id": "cordova-plugin-fivestarsplugin",
+    "platforms": [
+      "ios",
+      "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-ios",
+    "cordova-android"
+  ],
+  "author": "Jaime Cabello Venegas",
+  "license": "ISC"
+}

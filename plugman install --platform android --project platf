@@ -1,0 +1,44 @@
+plugman install --platform android --project platforms/android --plugin /Users/jaimecabello/Documents/POC/FiveStarsPlugin 
+
+plugman install --platform ios --project platforms/ios --plugin /Users/jaimecabello/Documents/POC/FiveStarsPlugin
+
+plugman uninstall --platform android --project platforms/android --plugin /Users/jaimecabello/Documents/POC/FiveStarsPlugin
+
+plugman uninstall --platform ios --project platforms/ios --plugin /Users/jaimecabello/Documents/POC/FiveStarsPlugin
+
+
+
+sudo npm install -g cordova@.8.0
+
+
+cordova plugin remove cordova-plugin-fivestarsplugin --save
+cordova plugin add /Users/jaimecabello/Documents/POC/FiveStarsPlugin --save
+
+
+
+/Users/jaimecabello/Library/Android/sdk
+
+export ANDROID_HOME=/Users/jaimecabello/Library/Android/sdk
+
+
+export ANDROID_HOME=/Users/jaimecabello/Library/Android/sdk
+export PATH=$ANDROID_HOME/platform-tools:$PATH
+export PATH=$ANDROID_HOME/tools:$PATH
+
+export ANDROID_SDK_ROOT=/Users/jaimecabello/Library/Android/sdk
+
+export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_201.jdk/Contents/Home 
+
+
+
+AGREGAR PLATAFORMAS 
+
+
+cordova platform add ios
+cordova platform add android
+
+ELIMINAR PLATAFORMAS
+
+
+cordova platform rm android
+cordova platform rm ios
